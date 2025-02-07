@@ -19,7 +19,7 @@ const initializeMocks = async () => {
 app.post('/api/v1/addEvent', (req, res) => {
     const {pathRegex, body} = req.body;
 
-    console.log(`Adding event for path ${pathRegex}`);
+    console.log(`[ADD] Adding event for path ${pathRegex}`);
 
     responseByEndpoint.push({
         pathRegex,
@@ -34,11 +34,13 @@ app.post('/api/v1/addEvent', (req, res) => {
 app.post('/api/v1/updateEvent', (req, res) => {
     const {pathRegex, body} = req.body;
 
-    console.log(`Updating event for path ${pathRegex}`);
+    console.log(`[UPDATE] Updating event for path ${pathRegex}`);
 
     const endpoint = responseByEndpoint.find((endpoint) => endpoint.pathRegex === pathRegex);
 
     if (!endpoint) {
+        console.log(`[UPDATE] Path ${pathRegex} not found`);
+
         return res.status(404)
             .send('Not found');
     }
@@ -53,9 +55,12 @@ app.post('/api/v1/updateEvent', (req, res) => {
 app.delete('/api/v1/deleteEvent', (req, res) => {
     const {pathRegex} = req.body;
 
+    console.log(`[DELETE] Deleting event for path ${pathRegex}`);
+
     const endpoint = responseByEndpoint.find((endpoint) => endpoint.pathRegex === pathRegex);
 
     if (!endpoint) {
+        console.log(`[DELETE] Path ${pathRegex} not found`);
         return res.status(404)
             .send('Not found');
     }
@@ -68,12 +73,12 @@ app.delete('/api/v1/deleteEvent', (req, res) => {
 });
 
 app.get(/\/api\/v1\/.+/, (req, res) => {
-
     const path = req.path;
-    console.log(`Get request for path ${path}`);
+    console.log(`[GET] Get request for path ${path}`);
     const response = responseByEndpoint.find((endpoint) => new RegExp(endpoint.pathRegex).test(path));
 
     if (!response) {
+        console.log(`[GET] Path ${path} not found`);
         res.status(404)
             .send('Not found');
     }
