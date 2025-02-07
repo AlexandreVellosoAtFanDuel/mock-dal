@@ -1,0 +1,12 @@
+{
+  "pathRegex": "/api/v1/live/event/\\d+/status",
+  "body": {
+    "status": "scheduled",
+    "scheduled": "2025-02-09T23:30:00.000Z",
+    "isBoxScoreAvailable": false,
+    "isPbpAvailable": false,
+    "isQuickBetsAvailable": false,
+    "isScoreAvailable": false,
+    "comp": "NFL"
+  }
+}

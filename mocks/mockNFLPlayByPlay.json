@@ -1,0 +1,4 @@
+{
+  "pathRegex": "/api/v1/live/event/\\d+/pbp",
+  "body": {}
+}
