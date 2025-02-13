@@ -1,6 +1,8 @@
 const express = require('express')
 const axios = require('axios');
 
+require('dotenv').config();
+
 const readMocks = require("./loadMocks");
 
 const app = express()
@@ -22,18 +24,28 @@ const initializeMocks = async (mocksFolder = '') => {
 
 const redirectToDal = async (path) => {
     const protocol = process.env.DAL_URL.startsWith('localhost:') ? 'http' : 'https';
+    try {
+        const resp = await axios.get(`${protocol}://${process.env.DAL_URL}${path}`, {
+            method: 'GET',
+            timeout: 10000,
+            headers: {
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+                'Accept-Encoding': 'gzip, deflate, br',
+            },
+        });
 
-    const resp = await axios.get(`${protocol}://${process.env.DAL_URL}/${path}`, {
-        method: 'GET',
-        timeout: 10000,
-        headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json',
-            'Accept-Encoding': 'gzip, deflate, br',
-        },
-    });
-
-    return resp.data;
+        return {
+            body: resp.data,
+            status: resp.status
+        }
+    } catch (err) {
+        console.error(`[DAL] Error: ${path}`);
+        return {
+            body: err.response.data,
+            status: err.response.status
+        }
+    }
 }
 
 app.post('/api/v1/addEvent', (req, res) => {
@@ -104,7 +116,8 @@ app.get(/\/api\/v1\/.+/, async (req, res) => {
             console.log(`[GET] Redirecting to DAL for path ${path}`);
 
             const response = await redirectToDal(path);
-            res.send(response);
+            res.status(response.status)
+                .send(response.body);
             return;
         }
 
