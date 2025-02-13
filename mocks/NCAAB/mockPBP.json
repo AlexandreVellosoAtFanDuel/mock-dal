@@ -1,0 +1,2722 @@
+{
+  "pathRegex": "api/v1/live/raw/.+/b3a3108e-ebda-4984-b282-2d1ac148d07c/pbp?comp=NCCAB&accessKey=.+",
+  "body": {
+    "id": "b3a3108e-ebda-4984-b282-2d1ac148d07c",
+    "status": "inprogress",
+    "coverage": "full",
+    "scheduled": "2025-02-03T00:30:00+00:00",
+    "conference_game": true,
+    "lead_changes": 1,
+    "times_tied": 1,
+    "clock": "15:59",
+    "half": 1,
+    "track_on_court": true,
+    "entry_mode": "LDE",
+    "clock_decimal": "15:59",
+    "broadcasts": [
+      {
+        "type": "TV",
+        "locale": "National",
+        "network": "BTN",
+        "channel": "610"
+      }
+    ],
+    "time_zones": {
+      "venue": "US/Pacific",
+      "home": "US/Pacific",
+      "away": "US/Central"
+    },
+    "season": {
+      "id": "76df4cc8-67c8-4179-9387-e1dd5e884014",
+      "year": 2024,
+      "type": "REG",
+      "name": "Regular Season"
+    },
+    "home": {
+      "name": "Ducks",
+      "alias": "ORE",
+      "market": "Oregon",
+      "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+      "points": 4,
+      "rank": 16,
+      "remaining_timeouts": 4
+    },
+    "away": {
+      "name": "Cornhuskers",
+      "alias": "NEB",
+      "market": "Nebraska",
+      "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+      "points": 7,
+      "rank": 0,
+      "remaining_timeouts": 4
+    },
+    "periods": [
+      {
+        "type": "half",
+        "id": "e7fef6aa-2d92-427d-878b-8f8372b8a431",
+        "number": 1,
+        "sequence": 1,
+        "scoring": {
+          "times_tied": 1,
+          "lead_changes": 1,
+          "home": {
+            "name": "Ducks",
+            "market": "Oregon",
+            "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+            "points": 4
+          },
+          "away": {
+            "name": "Cornhuskers",
+            "market": "Nebraska",
+            "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+            "points": 7
+          }
+        },
+        "events": [
+          {
+            "id": "2f91f5d4-bbb4-47b5-a3e7-156fa7a05e5d",
+            "clock": "20:00",
+            "updated": "2025-02-03T00:32:11Z",
+            "description": "Andrew Morgan vs. Nate Bittle (Nate Bittle gains possession)",
+            "sequence": 1738542731980,
+            "home_points": 0,
+            "away_points": 0,
+            "clock_decimal": "20:00",
+            "created": "2025-02-03T00:32:11Z",
+            "event_type": "opentip",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 556,
+              "coord_y": 300
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "e88c9fb3-58a6-468f-9905-dd256db4391e",
+            "clock": "19:31",
+            "updated": "2025-02-03T00:32:47Z",
+            "description": "Nate Bittle makes two point driving dunk (Brandon Angel assists)",
+            "sequence": 1738542767227,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "19:31",
+            "created": "2025-02-03T00:32:47Z",
+            "event_type": "twopointmade",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 88,
+              "coord_y": 311
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "assist",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Brandon Angel",
+                  "jersey_number": "21",
+                  "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                }
+              },
+              {
+                "type": "fieldgoal",
+                "made": true,
+                "shot_type": "dunk",
+                "shot_type_desc": "driving",
+                "points": 2,
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Nate Bittle",
+                  "jersey_number": "32",
+                  "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                }
+              }
+            ]
+          },
+          {
+            "id": "53bb92ff-c4a5-4c57-9137-7489235f63c3",
+            "clock": "19:12",
+            "updated": "2025-02-03T00:33:04Z",
+            "description": "Berke Buyuktuncel misses three point jump shot",
+            "sequence": 1738542784418,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "19:12",
+            "created": "2025-02-03T00:33:04Z",
+            "event_type": "threepointmiss",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 828,
+              "coord_y": 502
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "jump shot",
+                "three_point_shot": true,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Berke Buyuktuncel",
+                  "jersey_number": "9",
+                  "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                }
+              }
+            ]
+          },
+          {
+            "id": "6bf55ad4-c8e7-4208-b51d-42fd35112dd4",
+            "clock": "19:10",
+            "updated": "2025-02-03T00:33:04Z",
+            "description": "TJ Bamba defensive rebound",
+            "sequence": 1738542784436,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "19:10",
+            "created": "2025-02-03T00:33:04Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 828,
+              "coord_y": 502
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "defensive",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "TJ Bamba",
+                  "jersey_number": "5",
+                  "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                }
+              }
+            ]
+          },
+          {
+            "id": "5bb5d5f1-6451-49fb-a5f8-d886578e2d3f",
+            "clock": "19:01",
+            "updated": "2025-02-03T00:33:18Z",
+            "description": "Keeshawn Barthelemy misses three point jump shot",
+            "sequence": 1738542798182,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "19:01",
+            "created": "2025-02-03T00:33:18Z",
+            "event_type": "threepointmiss",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 339,
+              "coord_y": 197
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "jump shot",
+                "three_point_shot": true,
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Keeshawn Barthelemy",
+                  "jersey_number": "9",
+                  "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ba05b440-fe1d-4a2a-9b85-296390fd7924",
+            "clock": "18:59",
+            "updated": "2025-02-03T00:33:18Z",
+            "description": "Berke Buyuktuncel defensive rebound",
+            "sequence": 1738542798197,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "18:59",
+            "created": "2025-02-03T00:33:18Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 339,
+              "coord_y": 197
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "defensive",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Berke Buyuktuncel",
+                  "jersey_number": "9",
+                  "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                }
+              }
+            ]
+          },
+          {
+            "id": "8efef4d3-aa1f-4b78-85e3-101c906ce7fd",
+            "clock": "18:49",
+            "updated": "2025-02-03T00:33:32Z",
+            "description": "Keeshawn Barthelemy shooting foul (Juwan Gary draws the foul)",
+            "sequence": 1738542812723,
+            "home_points": 2,
+            "away_points": 0,
+            "clock_decimal": "18:49",
+            "created": "2025-02-03T00:33:32Z",
+            "event_type": "shootingfoul",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 610,
+              "coord_y": 197
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "personalfoul",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Keeshawn Barthelemy",
+                  "jersey_number": "9",
+                  "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                }
+              },
+              {
+                "type": "fouldrawn",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Juwan Gary",
+                  "jersey_number": "4",
+                  "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                }
+              }
+            ]
+          },
+          {
+            "id": "2eea1fd3-9d1c-4f42-b780-e64e20f3088c",
+            "clock": "18:49",
+            "updated": "2025-02-03T00:33:40Z",
+            "description": "Juwan Gary makes regular free throw 1 of 2",
+            "sequence": 1738542820074,
+            "home_points": 2,
+            "away_points": 1,
+            "clock_decimal": "18:49",
+            "created": "2025-02-03T00:33:40Z",
+            "event_type": "freethrowmade",
+            "attempt": "1 of 2",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 883,
+              "coord_y": 298
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "freethrow",
+                "made": true,
+                "free_throw_type": "regular",
+                "points": 1,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Juwan Gary",
+                  "jersey_number": "4",
+                  "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                }
+              }
+            ]
+          },
+          {
+            "id": "fb64fee7-8175-4c85-b23e-7b395519f2a2",
+            "clock": "18:49",
+            "updated": "2025-02-03T00:33:46Z",
+            "description": "Juwan Gary makes regular free throw 2 of 2",
+            "sequence": 1738542826570,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:49",
+            "created": "2025-02-03T00:33:46Z",
+            "event_type": "freethrowmade",
+            "attempt": "2 of 2",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 887,
+              "coord_y": 314
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "freethrow",
+                "made": true,
+                "free_throw_type": "regular",
+                "points": 1,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Juwan Gary",
+                  "jersey_number": "4",
+                  "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                }
+              }
+            ]
+          },
+          {
+            "id": "bbdac363-92da-42fc-8dc8-2eeeea952fad",
+            "clock": "18:32",
+            "updated": "2025-02-03T00:34:28Z",
+            "description": "Keeshawn Barthelemy misses two point pullup jump shot",
+            "sequence": 1738542868617,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:32",
+            "created": "2025-02-03T00:34:28Z",
+            "event_type": "twopointmiss",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 103,
+              "coord_y": 133
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "jump shot",
+                "shot_type_desc": "pullup",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Keeshawn Barthelemy",
+                  "jersey_number": "9",
+                  "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                }
+              }
+            ]
+          },
+          {
+            "id": "731ca601-7cb9-437f-9ab8-b4048c99a281",
+            "clock": "18:30",
+            "updated": "2025-02-03T00:34:28Z",
+            "description": "Ducks offensive rebound",
+            "sequence": 1738542868633,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:30",
+            "created": "2025-02-03T00:34:28Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 103,
+              "coord_y": 133
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "offensive",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                }
+              }
+            ]
+          },
+          {
+            "id": "17f0d6a7-28cc-4685-ac23-10289e67fc5c",
+            "clock": "18:30",
+            "updated": "2025-02-03T00:34:51Z",
+            "description": "Andrew Morgan personal foul",
+            "sequence": 1738542891611,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:30",
+            "created": "2025-02-03T00:34:51Z",
+            "event_type": "personalfoul",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 268,
+              "coord_y": 228
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "personalfoul",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Andrew Morgan",
+                  "jersey_number": "23",
+                  "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                }
+              }
+            ]
+          },
+          {
+            "id": "8006aab8-309c-4e0e-81d3-a8757b58d892",
+            "clock": "18:23",
+            "updated": "2025-02-03T00:35:01Z",
+            "description": "Nate Bittle misses two point layup",
+            "sequence": 1738542901413,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:23",
+            "created": "2025-02-03T00:35:01Z",
+            "event_type": "twopointmiss",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 101,
+              "coord_y": 314
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "layup",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Nate Bittle",
+                  "jersey_number": "32",
+                  "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                }
+              }
+            ]
+          },
+          {
+            "id": "67135d10-eb66-484c-afd2-e612534e918b",
+            "clock": "18:21",
+            "updated": "2025-02-03T00:35:01Z",
+            "description": "Brice Williams defensive rebound",
+            "sequence": 1738542901429,
+            "home_points": 2,
+            "away_points": 2,
+            "clock_decimal": "18:21",
+            "created": "2025-02-03T00:35:01Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 101,
+              "coord_y": 314
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "defensive",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Brice Williams",
+                  "jersey_number": "3",
+                  "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e80200ae-b4f3-44b0-950c-6d028e503761",
+            "clock": "18:10",
+            "updated": "2025-02-03T00:35:13Z",
+            "description": "Andrew Morgan makes two point driving layup (Brice Williams assists)",
+            "sequence": 1738542913475,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "18:10",
+            "created": "2025-02-03T00:35:13Z",
+            "event_type": "twopointmade",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 1034,
+              "coord_y": 283
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "assist",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Brice Williams",
+                  "jersey_number": "3",
+                  "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                }
+              },
+              {
+                "type": "fieldgoal",
+                "made": true,
+                "shot_type": "layup",
+                "shot_type_desc": "driving",
+                "points": 2,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Andrew Morgan",
+                  "jersey_number": "23",
+                  "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                }
+              }
+            ]
+          },
+          {
+            "id": "5e8f89b7-d19a-4258-a453-10f0ddb99a88",
+            "clock": "17:52",
+            "updated": "2025-02-03T00:35:31Z",
+            "description": "Brandon Angel misses three point jump shot",
+            "sequence": 1738542931514,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "17:52",
+            "created": "2025-02-03T00:35:31Z",
+            "event_type": "threepointmiss",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 218,
+              "coord_y": 65
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "jump shot",
+                "three_point_shot": true,
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Brandon Angel",
+                  "jersey_number": "21",
+                  "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                }
+              }
+            ]
+          },
+          {
+            "id": "5705d972-704d-43ee-9df4-b0bc10825879",
+            "clock": "17:50",
+            "updated": "2025-02-03T00:35:31Z",
+            "description": "Berke Buyuktuncel defensive rebound",
+            "sequence": 1738542931529,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "17:50",
+            "created": "2025-02-03T00:35:31Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 218,
+              "coord_y": 65
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "defensive",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Berke Buyuktuncel",
+                  "jersey_number": "9",
+                  "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                }
+              }
+            ]
+          },
+          {
+            "id": "249479a1-3360-4024-9d98-e6c19f3b08b9",
+            "clock": "17:35",
+            "updated": "2025-02-03T00:35:57Z",
+            "description": "Andrew Morgan turnover (lost ball)",
+            "sequence": 1738542957281,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "17:35",
+            "created": "2025-02-03T00:35:57Z",
+            "event_type": "turnover",
+            "turnover_type": "Lost Ball",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 614,
+              "coord_y": 164
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "turnover",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Andrew Morgan",
+                  "jersey_number": "23",
+                  "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                }
+              }
+            ]
+          },
+          {
+            "id": "c97c2211-7d21-4725-adaa-58b7b7b053ba",
+            "clock": "17:15",
+            "updated": "2025-02-03T00:36:22Z",
+            "description": "Keeshawn Barthelemy misses two point driving layup",
+            "sequence": 1738542982373,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "17:15",
+            "created": "2025-02-03T00:36:22Z",
+            "event_type": "twopointmiss",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 122,
+              "coord_y": 239
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "layup",
+                "shot_type_desc": "driving",
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "Keeshawn Barthelemy",
+                  "jersey_number": "9",
+                  "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f0f9124c-fdd0-4ea5-b723-e8f06de005d8",
+            "clock": "17:13",
+            "updated": "2025-02-03T00:36:22Z",
+            "description": "Berke Buyuktuncel defensive rebound",
+            "sequence": 1738542982389,
+            "home_points": 2,
+            "away_points": 4,
+            "clock_decimal": "17:13",
+            "created": "2025-02-03T00:36:22Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 122,
+              "coord_y": 239
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "defensive",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Berke Buyuktuncel",
+                  "jersey_number": "9",
+                  "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                }
+              }
+            ]
+          },
+          {
+            "id": "9196de36-d632-43ec-8c65-692a7d782416",
+            "clock": "16:50",
+            "updated": "2025-02-03T00:36:44Z",
+            "description": "Brice Williams makes three point jump shot (Andrew Morgan assists)",
+            "sequence": 1738543004213,
+            "home_points": 2,
+            "away_points": 7,
+            "clock_decimal": "16:50",
+            "created": "2025-02-03T00:36:44Z",
+            "event_type": "threepointmade",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 800,
+              "coord_y": 434
+            },
+            "possession": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "assist",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Andrew Morgan",
+                  "jersey_number": "23",
+                  "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                }
+              },
+              {
+                "type": "fieldgoal",
+                "made": true,
+                "shot_type": "jump shot",
+                "three_point_shot": true,
+                "points": 3,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Brice Williams",
+                  "jersey_number": "3",
+                  "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                }
+              }
+            ]
+          },
+          {
+            "id": "cb9f2b5d-db2f-45d9-91cd-2cce9db16049",
+            "clock": "16:26",
+            "updated": "2025-02-03T00:37:07Z",
+            "description": "TJ Bamba makes two point driving layup",
+            "sequence": 1738543027559,
+            "home_points": 4,
+            "away_points": 7,
+            "clock_decimal": "16:26",
+            "created": "2025-02-03T00:37:07Z",
+            "event_type": "twopointmade",
+            "attribution": {
+              "name": "Ducks",
+              "market": "Oregon",
+              "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+              "team_basket": "left"
+            },
+            "location": {
+              "coord_x": 87,
+              "coord_y": 321
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": true,
+                "shot_type": "layup",
+                "shot_type_desc": "driving",
+                "points": 2,
+                "team": {
+                  "name": "Ducks",
+                  "market": "Oregon",
+                  "id": "1da70895-f77f-44ef-b216-d63c02e696eb"
+                },
+                "player": {
+                  "full_name": "TJ Bamba",
+                  "jersey_number": "5",
+                  "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                }
+              }
+            ]
+          },
+          {
+            "id": "2b095dda-e362-4350-b419-0cdafb3f1cb2",
+            "clock": "16:01",
+            "updated": "2025-02-03T00:37:34Z",
+            "description": "Sam Hoiberg misses three point jump shot",
+            "sequence": 1738543054878,
+            "home_points": 4,
+            "away_points": 7,
+            "clock_decimal": "16:01",
+            "created": "2025-02-03T00:37:34Z",
+            "event_type": "threepointmiss",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 1020,
+              "coord_y": 29
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "fieldgoal",
+                "made": false,
+                "shot_type": "jump shot",
+                "three_point_shot": true,
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Sam Hoiberg",
+                  "jersey_number": "1",
+                  "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f38dad75-7a2c-4cfc-a9d5-be9c5998ed06",
+            "clock": "15:59",
+            "updated": "2025-02-03T00:37:34Z",
+            "description": "Andrew Morgan offensive rebound",
+            "sequence": 1738543054895,
+            "home_points": 4,
+            "away_points": 7,
+            "clock_decimal": "15:59",
+            "created": "2025-02-03T00:37:34Z",
+            "event_type": "rebound",
+            "attribution": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+              "team_basket": "right"
+            },
+            "location": {
+              "coord_x": 1020,
+              "coord_y": 29
+            },
+            "possession": {
+              "name": "Cornhuskers",
+              "market": "Nebraska",
+              "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+            },
+            "on_court": {
+              "home": {
+                "name": "Ducks",
+                "market": "Oregon",
+                "id": "1da70895-f77f-44ef-b216-d63c02e696eb",
+                "players": [
+                  {
+                    "full_name": "Jackson Shelstad",
+                    "jersey_number": "3",
+                    "id": "f8c0069d-e1ec-43b6-a8ba-cf4d647b51d1"
+                  },
+                  {
+                    "full_name": "TJ Bamba",
+                    "jersey_number": "5",
+                    "id": "221573b7-7b17-476f-ad29-95a032953c36"
+                  },
+                  {
+                    "full_name": "Keeshawn Barthelemy",
+                    "jersey_number": "9",
+                    "id": "92961a5e-aab1-46d0-99fc-0dd03e2f93d3"
+                  },
+                  {
+                    "full_name": "Brandon Angel",
+                    "jersey_number": "21",
+                    "id": "0070a0af-f7e4-4cdc-af19-e9dc678f498a"
+                  },
+                  {
+                    "full_name": "Nate Bittle",
+                    "jersey_number": "32",
+                    "id": "f0cef0c8-742c-4491-b950-f234c3aea836"
+                  }
+                ]
+              },
+              "away": {
+                "name": "Cornhuskers",
+                "market": "Nebraska",
+                "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32",
+                "players": [
+                  {
+                    "full_name": "Sam Hoiberg",
+                    "jersey_number": "1",
+                    "id": "7a728d3b-53c1-4365-8a72-5f19126ad051"
+                  },
+                  {
+                    "full_name": "Brice Williams",
+                    "jersey_number": "3",
+                    "id": "440bf773-5021-4ef0-8953-3e8bcad1e07b"
+                  },
+                  {
+                    "full_name": "Juwan Gary",
+                    "jersey_number": "4",
+                    "id": "87b03cde-95ed-4535-a0e4-1f68fc9da312"
+                  },
+                  {
+                    "full_name": "Berke Buyuktuncel",
+                    "jersey_number": "9",
+                    "id": "d2b2572d-55ca-47c1-9175-a60871dc272e"
+                  },
+                  {
+                    "full_name": "Andrew Morgan",
+                    "jersey_number": "23",
+                    "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                  }
+                ]
+              }
+            },
+            "statistics": [
+              {
+                "type": "rebound",
+                "rebound_type": "offensive",
+                "team": {
+                  "name": "Cornhuskers",
+                  "market": "Nebraska",
+                  "id": "f8b1bf00-5b73-4ac4-98c0-ec554027ae32"
+                },
+                "player": {
+                  "full_name": "Andrew Morgan",
+                  "jersey_number": "23",
+                  "id": "b1cbd712-343f-426b-b0c1-c5b6fdf9d90f"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "updated": "Mon, 03 Feb 2025 00:37:40 GMT"
+  }
+}
