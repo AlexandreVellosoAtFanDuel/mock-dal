@@ -54,61 +54,7 @@ const redirectToDal = async (path) => {
     }
 }
 
-app.post('/api/v1/addEvent', (req, res) => {
-    const {pathRegex, body} = req.body;
-
-    console.log(`[ADD] Adding event for path ${pathRegex}`);
-
-    responseByEndpoint.push({
-        pathRegex,
-        body
-    });
-
-    res.send({
-        status: 'OK'
-    });
-});
-
-app.post('/api/v1/updateEvent', (req, res) => {
-    const {pathRegex, body} = req.body;
-
-    console.log(`[UPDATE] Updating event for path ${pathRegex}`);
-
-    const endpoint = responseByEndpoint.find((endpoint) => endpoint.pathRegex === pathRegex);
-
-    if (!endpoint) {
-        console.log(`[UPDATE] Path ${pathRegex} not found`);
-
-        return res.status(404)
-            .send('Not found');
-    }
-
-    endpoint.body = body;
-
-    res.send({
-        status: 'OK'
-    });
-});
-
-app.delete('/api/v1/deleteEvent', (req, res) => {
-    const {pathRegex} = req.body;
-
-    console.log(`[DELETE] Deleting event for path ${pathRegex}`);
-
-    const endpoint = responseByEndpoint.find((endpoint) => endpoint.pathRegex === pathRegex);
-
-    if (!endpoint) {
-        console.log(`[DELETE] Path ${pathRegex} not found`);
-        return res.status(404)
-            .send('Not found');
-    }
-
-    responseByEndpoint = responseByEndpoint.filter((endpoint) => endpoint.pathRegex !== pathRegex);
-
-    res.send({
-        status: 'OK'
-    });
-});
+const shouldRedirectToDal = () => process.env.SHOULD_REDIRECT_TO_DAL === 'true';
 
 app.get(/\/api\/v1\/.+/, async (req, res) => {
     const path = req.path;
@@ -118,7 +64,7 @@ app.get(/\/api\/v1\/.+/, async (req, res) => {
     if (!response) {
         console.log(`[GET] Path ${path} not found`);
 
-        if (process.env.SHOULD_REDIRECT_TO_DAL === 'true') {
+        if (shouldRedirectToDal()) {
             console.log(`[GET] Redirecting to DAL for path ${path}`);
 
             const response = await redirectToDal(path);
@@ -144,7 +90,7 @@ app.listen(port, async () => {
 
     await initializeMocks(mocksFolder);
 
-    console.log(`[INIT] Redirecting requests to DAL: ${process.env.SHOULD_REDIRECT_TO_DAL === 'true'}`);
+    console.log(`[INIT] Redirecting requests to DAL: ${shouldRedirectToDal()}`);
 
     console.log(`Mock server listening at http://localhost:${port}`);
 });
