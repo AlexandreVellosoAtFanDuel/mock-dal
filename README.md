@@ -19,23 +19,30 @@ npm start NCAAB
 
 ## Mock structure
 
-Each api mock you have two JSON values ( pathRegex and body ).
+Each api mock you have two JSON values ( **pathRegex** and **body** ).
 
-The pathRegex is a regex pattern used to match the request to the mock.
-
-E.g: <code>/api/v1/live/event/\d+/status</code>
-
-The body is the response that will be sent to the client.
+The **pathRegex** is a regex pattern used to match the request to the mock.
 
 E.g: 
 ```json
 {
-  "status": "scheduled",
-  "scheduled": "2025-02-09T23:30:00.000Z",
-  "isBoxScoreAvailable": false,
-  "isPbpAvailable": false,
-  "isQuickBetsAvailable": false,
-  "isScoreAvailable": false,
-  "comp": "NFL"
+  pathRegex: "/api/v1/live/event/\\d+/status",
+}
+```
+
+The **body** is the response that will be sent to the client.
+
+E.g: 
+```json
+{
+  "body": {
+    "status": "scheduled",
+    "scheduled": "2025-02-09T23:30:00.000Z",
+    "isBoxScoreAvailable": false,
+    "isPbpAvailable": false,
+    "isQuickBetsAvailable": false,
+    "isScoreAvailable": false,
+    "comp": "NFL"
+  }
 }
 ```
