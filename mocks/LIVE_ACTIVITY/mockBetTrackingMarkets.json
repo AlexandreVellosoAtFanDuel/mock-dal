@@ -1,0 +1,607 @@
+{
+  "pathRegex": "api/v1/live/event/\\d+/bet-tracking/markets/\\w{2}",
+  "body": {
+    "homeTeam": {
+      "shortName": "MIA Dolphins",
+      "abbrName": "MIA",
+      "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png"
+    },
+    "awayTeam": {
+      "shortName": "BUF Bills",
+      "abbrName": "BUF",
+      "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png"
+    },
+    "playerProps": {
+      "708.112157396": {
+        "marketTypeCode": "PLAYER_TOTAL_ASSISTS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411966",
+        "stats": [
+          "assists"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157397": {
+        "marketTypeCode": "PLAYER_TOTAL_REBOUNDS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411970",
+        "stats": [
+          "rebounds"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157398": {
+        "marketTypeCode": "PLAYER_TOTAL_ASSISTS_+_REBOUNDS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411965",
+        "stats": [
+          "assists",
+          "rebounds"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157399": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411968",
+        "stats": [
+          "points"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157400": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS_+_REBOUNDS_+_ASSISTS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411967",
+        "stats": [
+          "points",
+          "rebounds",
+          "assists"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157401": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS_+_ASSISTS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411969",
+        "stats": [
+          "points",
+          "assists"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112157402": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS_+_REBOUNDS",
+        "selectionId": 75811240,
+        "type": "MARKET",
+        "externalMarketId": "42.479411964",
+        "stats": [
+          "points",
+          "rebounds"
+        ],
+        "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+        "resultType": "OVER"
+      },
+      "708.112158847": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS",
+        "selectionId": 50732541,
+        "type": "MARKET",
+        "externalMarketId": "42.479414061",
+        "stats": [
+          "points"
+        ],
+        "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+        "resultType": "OVER"
+      },
+      "708.112158848": {
+        "marketTypeCode": "PLAYER_TOTAL_POINTS",
+        "selectionId": 75933389,
+        "type": "MARKET",
+        "externalMarketId": "42.479414060",
+        "stats": [
+          "points"
+        ],
+        "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+        "resultType": "OVER"
+      },
+      "708.112158925": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479414208",
+        "stats": [
+          "threePointsMade"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 75933381,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "2",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 50732539,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "2",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 75811215,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "2",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112158929": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479414213",
+        "stats": [
+          "threePointsMade"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 75933381,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "3",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 50732539,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "3",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 75811215,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "3",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112159043": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479414340",
+        "stats": [
+          "threePointsMade"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 75933381,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "4",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "{1}+_MADE_THREES_CBB",
+            "selectionId": 50732539,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "4",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204043": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491680",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "35",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "35",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "35",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204045": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491691",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "40",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "40",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "40",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204047": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491661",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "20",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "20",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "20",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204048": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491672",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "10",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "10",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "10",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204052": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491675",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB_NEW",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "6",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204053": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491699",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "4",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204054": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491673",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "15",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "15",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "15",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204056": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491666",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "30",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "30",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "30",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204057": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491665",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "10",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204060": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491701",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "10",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204062": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491687",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "6",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204064": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491668",
+        "stats": [
+          "points"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "25",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136867,
+            "playerId": "99d4d024-f1dc-4aee-96e1-4eeeb47d687f",
+            "target": "25",
+            "resultType": null
+          },
+          {
+            "marketTypeCode": "TO_SCORE_{1}+_POINTS_CBB",
+            "selectionId": 76136850,
+            "playerId": "80bf72fe-5f22-43e6-9a06-d46e340c3409",
+            "target": "25",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204066": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491693",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "8",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204067": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491670",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "8",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204068": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491694",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "14",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204071": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491663",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "12",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204072": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491681",
+        "stats": [
+          "rebounds"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_REBOUNDS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "4",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204073": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491688",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "2",
+            "resultType": null
+          }
+        ]
+      },
+      "708.112204076": {
+        "type": "SELECTION",
+        "externalMarketId": "42.479491685",
+        "stats": [
+          "assists"
+        ],
+        "selections": [
+          {
+            "marketTypeCode": "TO_RECORD_{1}+_ASSISTS_CBB",
+            "selectionId": 76136852,
+            "playerId": "9dd5bcf8-74b3-40d7-9173-bea73d0d8779",
+            "target": "12",
+            "resultType": null
+          }
+        ]
+      }
+    },
+    "eventProps": {}
+  }
+}

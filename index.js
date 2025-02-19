@@ -19,7 +19,13 @@ const initializeMocks = async (mocksFolder = '') => {
         responseByEndpoint.push(mock);
     });
 
-    console.log(`[INIT] Found ${mocks.length} mocks`);
+    if (mocks.length === 0) {
+        console.log(`[INIT] No mocks found`);
+    } else if (mocks.length === 1) {
+        console.log(`[INIT] Found ${mocks.length} mock`);
+    } else {
+        console.log(`[INIT] Found ${mocks.length} mocks`);
+    }
 }
 
 const redirectToDal = async (path) => {
@@ -121,9 +127,9 @@ app.get(/\/api\/v1\/.+/, async (req, res) => {
             return;
         }
 
-        console.log(`[GET] Path ${path} not found`);
         res.status(404)
             .send('Not found');
+        return;
     }
 
     res.send(response.body);
@@ -137,5 +143,8 @@ app.listen(port, async () => {
     }
 
     await initializeMocks(mocksFolder);
+
+    console.log(`[INIT] Redirecting requests to DAL: ${process.env.SHOULD_REDIRECT_TO_DAL === 'true'}`);
+
     console.log(`Mock server listening at http://localhost:${port}`);
 });
