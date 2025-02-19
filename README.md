@@ -26,7 +26,7 @@ The **pathRegex** is a regex pattern used to match the request to the mock.
 E.g: 
 ```json
 {
-  pathRegex: "/api/v1/live/event/\\d+/status",
+  "pathRegex": "/api/v1/live/event/\\d+/status"
 }
 ```
 
