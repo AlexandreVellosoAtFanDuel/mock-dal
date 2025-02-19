@@ -1,0 +1,41 @@
+{
+  "pathRegex": "api/v1/type/qa-event-id_sportradar-event-id?comp=false&accessKey=.+",
+  "body": [
+    {
+      "type": "event-id|sportradar-event-id",
+      "expdate": 1740020400,
+      "_PK": "event-id#33996092",
+      "_SK": "sportradar-event-id#b3a3108e-ebda-4984-b282-2d1ac148d07c",
+      "comp": "NCAAB",
+      "eventId": 33996092,
+      "competitionId": 10861937,
+      "awayTeam": {
+        "nfId": 337,
+        "conference": "MWEST",
+        "selectionId": 716979,
+        "abbrName": "WYO",
+        "name": "Wyoming",
+        "logo": "https://assets.sportsbook.fanduel.com/images/team/ncaab/wyoming.png",
+        "competition": "NCAAB",
+        "team": "Wyoming (NCAAB)",
+        "shortName": "Wyoming"
+      },
+      "scheduled": "2025-02-13T03:00:00Z",
+      "awayTeamName": "Wyoming",
+      "eventName": "Wyoming @ New Mexico",
+      "homeTeam": {
+        "nfId": 195,
+        "conference": "MWEST",
+        "selectionId": 284243,
+        "abbrName": "UNM",
+        "name": "New Mexico",
+        "logo": "https://assets.sportsbook.fanduel.com/images/team/ncaab/new_mexico.png",
+        "competition": "NCAAB",
+        "team": "New Mexico (NCAAB)",
+        "shortName": "New Mexico"
+      },
+      "homeTeamName": "New Mexico",
+      "eventTimestamp": 1739415600
+    }
+  ]
+}

@@ -132,6 +132,10 @@ app.get(/\/api\/v1\/.+/, async (req, res) => {
 app.listen(port, async () => {
     const mocksFolder = process.argv[2] ?? '';
 
+    if (mocksFolder) {
+        console.log(`[INIT] Initializing mocks from folder: ${mocksFolder}`);
+    }
+
     await initializeMocks(mocksFolder);
     console.log(`Mock server listening at http://localhost:${port}`);
 });
